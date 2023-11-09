@@ -52,3 +52,135 @@
     background-color: #ff5b15;
     color: #ffffff;
 }
+
+.nav-bar {
+    padding: 0px 32px;
+    height: 91.5px;
+    background-color: #02042a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar .logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .logo img {
+    height: 30px;
+    width: 125px;
+    padding-right: 22px;
+}
+
+.nav-bar .options {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    max-width: 651px;
+    width: 651px;
+    min-width: 570px;
+}
+
+.nav-bar .options .option {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar .options .option div {
+    padding: 0px 12px;
+    color: #ffffff;
+}
+
+.nav-bar .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-bar .buttons .flag {
+    color: white;
+}
+
+.nav-bar .buttons .login div {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: 1px solid #2b84ea;
+    border-radius: 2px;
+    width: 43px;
+}
+
+.nav-bar .buttons .signup div {
+    color: #4b94ed;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 20px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    margin-left: 16px;
+    width: 70px;
+}
+
+.home {
+    padding: 0px 32px;
+    background-color: #02042a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home div {
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    min-width: 410px;
+    max-width: 1000px;
+}
+
+.home div h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.divider {
+    width: 25px;
+    color: #61cea6;
+    padding: 2px 0px;
+    background-color: #61cea6;
+    border: none;
+    margin: 16px 0px;
+}
+
+.home div p {
+    color: #a8a8a8;
+    font-size: 18px;
+    margin: 20px 0px;
+    line-height: 1.6;
+}
+
+.home .btn {
+    width: 130px;
+    min-width: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 14px 18px;
+    margin-top: 16px;
+    background-color: #2b84ea;
+    border-radius: 5px;
+}
+
+.home img {
+    width: 670px;
+    max-width: 100%;
+}
