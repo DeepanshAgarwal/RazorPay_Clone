@@ -185,6 +185,14 @@
     max-width: 100%;
 }
 
+.home-footer-shape {
+    background-color: #02042a;
+    width: 100%;
+    min-height: 85px;
+    height: 12vw;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 65%, 92% 100%, 0% 40%);
+}
+
 .payments {
     padding: 32px 32px 0px;
     display: flex;
@@ -197,7 +205,7 @@
     font-size: 24px;
     font-weight: 900;
     max-width: 1080px;
-    width: 1080px;
+    width: 80vw;
     text-align: center;
 }
 
@@ -212,6 +220,7 @@
     padding: 40px 48px;
     margin-top: 64px;
     background-image: url("./Assets/payment-suite.png");
+    background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
 }
@@ -267,11 +276,38 @@
     align-items: center;
     flex-wrap: wrap;
     max-width: 1080px;
-    gap: 30px;
+    gap: 2vw;
+    margin-top: 64px;
 }
 
 .payments .cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 225px;
+    flex: 1;
     min-width: 310px;
-    width: 340px;
-    max-width: 100%;
+    border-radius: 5px;
+    clip-path: polygon(0% 0%, 70% 0%, 100% 40%, 100% 100%, 0% 100%);
+    border: 1px solid #eeeeee;
+}
+
+.payments .cards .card div {
+    padding: 0px 24px;
+}
+
+.payments .cards .card .card-head {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.payments .cards .card .card-line {
+    color: #818597;
+    line-height: 1.6;
+}
+
+.payments .cards .card .card-btn {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0b72e7;
 }
