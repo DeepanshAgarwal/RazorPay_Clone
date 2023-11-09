@@ -184,3 +184,94 @@
     width: 670px;
     max-width: 100%;
 }
+
+.payments {
+    padding: 32px 32px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.payments .heading {
+    font-size: 24px;
+    font-weight: 900;
+    max-width: 1080px;
+    width: 1080px;
+    text-align: center;
+}
+
+.payments .main-card {
+    height: 440px;
+    max-width: 982px;
+    min-width: 0px;
+    /* width: 982px; */
+    width: 80vw;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 40px 48px;
+    margin-top: 64px;
+    background-image: url("./Assets/payment-suite.png");
+    background-size: contain;
+    background-position: right;
+}
+
+.main-card-heading {
+    width: 510px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.payments .main-card .lines {
+    margin-top: 32px;
+}
+
+.payments .main-card .lines .line {
+    height: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.payments .main-card .buttons {
+    display: flex;
+    padding: 32px 0px;
+}
+
+.payments .main-card .buttons .signup {
+    /* width: 130px; */
+    min-width: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 14px 18px;
+    /* margin-top: 16px; */
+    background-color: #2b84ea;
+    border-radius: 5px;
+}
+
+.payments .main-card .buttons .know-more {
+    width: 130px;
+    min-width: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0b72e7;
+    padding: 14px 18px;
+    /* margin-top: 16px; */
+    /* background-color: #fff; */
+    border-radius: 5px;
+}
+
+.payments .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1080px;
+    gap: 30px;
+}
+
+.payments .cards .card {
+    min-width: 310px;
+    width: 340px;
+    max-width: 100%;
+}
