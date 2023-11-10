@@ -104,7 +104,16 @@
 }
 
 .nav-bar .buttons .flag {
-    color: white;
+    color: #fff;
+    font-size: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60px;
+}
+
+.nav-bar .buttons .flag img {
+    height: 20px;
 }
 
 .nav-bar .buttons .login div {
@@ -241,6 +250,11 @@
     align-items: center;
 }
 
+.payments .main-card .lines .line i {
+    color: rgb(98, 199, 199);
+    margin-right: 15px;
+}
+
 .payments .main-card .buttons {
     display: flex;
     padding: 32px 0px;
@@ -258,6 +272,11 @@
     border-radius: 5px;
 }
 
+.payments .main-card .buttons .signup i {
+    margin-left: 10px;
+    font-size: 12px;
+}
+
 .payments .main-card .buttons .know-more {
     width: 130px;
     min-width: 0px;
@@ -268,6 +287,11 @@
     /* margin-top: 16px; */
     /* background-color: #fff; */
     border-radius: 5px;
+}
+
+.payments .main-card .buttons .know-more i {
+    margin-left: 10px;
+    font-size: 10px;
 }
 
 .payments .cards {
@@ -312,6 +336,11 @@
     color: #0b72e7;
 }
 
+.payments .cards .card .card-btn i {
+    margin-left: 10px;
+    font-size: 10px;
+}
+
 .payments-footer {
     max-width: 1046px;
     /* min-width: 0px; */
@@ -347,4 +376,67 @@
 .payments-footer .line3 {
     color: #0b72e7;
     font-weight: bold;
+}
+
+.payments2 {
+    background-size: cover;
+    background-image: url(https://razorpay.com/build/browser/static/x-dark-bg.0bc3bc00.svg);
+    background-repeat: no-repeat;
+    padding: 224px 32px 500px;
+    color: #fff;
+}
+
+.payments2 .main-card {
+    height: 370px;
+    background-image: url("./Assets/x-graphic.png");
+    border: 1px solid rgba(128, 130, 192, 0.658);
+}
+
+.payments2 .main-card img {
+    height: 32px;
+    position: relative;
+    top: 5px;
+}
+
+.payments2 .main-card .line {
+    color: #e2e2e2;
+}
+
+.payments2 .cards .card {
+    border: 1px solid rgba(128, 130, 192, 0.658);
+}
+
+.payments2 .cards .card .card-line {
+    color: #ffffff96;
+}
+
+.payments2-footer {
+    margin: 64px 0px;
+    padding: 32px 16px;
+    background: none;
+    border: 1px solid rgba(128, 130, 192, 0.658);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.payments2-footer .line1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #e2e2e2;
+}
+
+.payments2-footer .line2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #e2e2e2;
+}
+
+.payments2-footer .right .btn {
+    /* min-width: 200px; */
+    width: 200px;
+    background-color: #2b84ea;
+    padding: 14px 18px;
+    border-radius: 5px;
 }
